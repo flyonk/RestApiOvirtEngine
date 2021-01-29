@@ -1,0 +1,26 @@
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo"><img src="/logo.svg" width="60px" height="60px"></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            {{#if isHome}}
+            <li class="active"><a href="/">Добавить</a></li>
+            {{else}}
+            <li><a href="/">Добавить</a></li>
+            {{/if}}
+
+            {{!-- {{#if isEdit}}
+            <li class="active"><a href="/edit">Изменить (in work)</a></li>
+            {{else}}
+            <li><a href="/edit">Изменить (in work)</a></li>
+            {{/if}} --}}
+
+            {{#if isObserve}}
+            <li class="active"><a href="/observe">Смотреть БД</a></li>
+            {{else}}
+            <li><a href="/observe">Смотреть БД</a></li>
+            {{/if}}
+            
+            
+        </ul>
+    </div>
+</nav>

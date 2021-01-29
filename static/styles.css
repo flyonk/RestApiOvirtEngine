@@ -1,0 +1,62 @@
+.bd_title {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.btn-small {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.formdiv {
+  border-top: 1px solid #ee6e73;
+  border-bottom: 1px solid #ee6e73;
+}
+
+.nav-wrapper {
+  padding: 0 10px;
+}
+
+.td {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.row {
+  margin-bottom: 5px;
+}
+
+.tablerow {
+  margin-bottom: 0;
+  margin-top: 2px;
+}
+
+.table_wrap {
+  display: flex;
+}
+
+.ru-wrap {
+  width: 70%;
+}
+
+.eng-wrap {
+  width: 30%;
+}
+
+.ru {
+  height: 50px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.eng {
+  height: 50px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

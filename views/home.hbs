@@ -1,0 +1,19 @@
+<h3 class="bd_title">Интерфейс для работы с базой данных переводчика ovirtEngine</h3>
+<div class="row">
+    <div class="input-field col s12 formdiv">
+        <form action="/singlepost" method="POST">
+            <p class="form_p">Здесь можно добавить уникальное значение в базу данных. Вы просто ложите английское слово, а в базу данных оно поподает в формате ["Your word", "textForTranslate"] но только в том случае если значения ещё нет в базе</p>
+            <input id="testInput" name="oEL" type="text" class="validate">
+            <label class="label_bd" for="oEL">Добавить уникальное значение в базу данных</label>
+            </br>
+            <button type="submit" class="waves-effect waves-light btn-small">Добавить</button>
+
+        </form>
+    </div>
+{{!-- 
+    <div class="row">
+        <div class="input-field col s6">
+            <button type="submit" class="waves-effect waves-light btn-small domSend" name="domar">SEND DOM POST</button>
+        </div>
+    </div> --}}
+</div>
